@@ -6,6 +6,9 @@ module.exports = {
   theme: {
     extend: {},
   },
+  optimization: {
+    runtimeChunk: 'single'
+},
   plugins: [],
 }
 
